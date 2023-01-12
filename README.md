@@ -6,3 +6,4 @@ The quiz was supposed to display questions one at a time, whilst there was a tim
 Following is a link to the GitHub pages: https://shae-thompson.github.io/JavaScript-Code-Quiz/
 
 Below is a screenshot of the application:
+![shae-thompson github io_JavaScript-Code-Quiz_](https://user-images.githubusercontent.com/117495361/212051520-988045f7-e48b-4b35-841a-5f5af55c8e94.png)
