@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+</head>
+<body>
+    <!-- Timer top right of screen-->
+        <h2 class="timer" style="text-align:center;"></h2>
+        <div id="main"></div>
+    
+        <!-- Start button & Quiz Descrip-->
+    <div class="beginQuiz">
+        <h2>Welcome to the JavaScript Quiz</h2>
+        <p>This quiz will be about the basics of JavaScript. Click on your chosen answer to the question, but remember you will be time penalised by 5 seconds for incorrect answers. Good luck!</p>
+        <button id="startBtn">Start Quiz</button>
+    </div>
+    
+    <!-- Questions within Quiz-->
+    <div id="quizQuestions">
+        <p id="q">A very useful tool used during development and debugging for printing content to the debugger is:</p>
+        <ul id="questions">
+            <li class="answers1">JavaScript</li>
+            <li class="answers1">Termianl/Bash</li>
+            <li class="answers1">For Loops</li>
+            <li class="answers1">console.log</li>
+        </ul>
+
+        <p id="q">The condition in an if/else statement is enclosed within: </p>
+        <ul id="questions">
+            <li class="answers2">Quotes ""</li>
+            <li class="answers2">Curly Brackets {}</li>
+            <li class="answers2">Parentheses ()</li>
+            <li class="answers2">Square Brackets []</li>
+        </ul>
+        
+        <p id="q">Arrays in JavaScript can be used to store:</p>
+        <ul id="questions">
+            <li class="answers3">Numbers and Strings</li>
+            <li class="answers3">Other Arrays</li>
+            <li class="answers3">Booleans</li>
+            <li class="answers3">All of the Above</li>
+        </ul>
+
+        <p id="q">String values must be enclosed within ___ when being assigned to variables.</p>
+        <ul id="questions">
+            <li class="answers4">Commas ,,</li>
+            <li class="answers4">Curly Brackets {}</li>
+            <li class="answers4">Quotes ""</li>
+            <li class="answers4">Parentheses ()</li>
+        </ul>
+
+        <p id="q">Commonly used data types do not include:</p>
+        <ul id="questions">
+            <li class="answers5">Strings</li>
+            <li class="answers5">Numbers</li>
+            <li class="answers5">Booleans</li>
+            <li class="answers5">Alerts</li>
+        </ul>
+
+        <!-- Still needs to display correct/wrong-->
+    </div>
+
+    <div>
+        <form id="scoreTracker" method="POST">
+            <label for="initals">Type initals: </label>
+            <input type="text" placeholder="AA" name="initals" id="initials" />
+          </form>
+          <ul id="scores"></ul>
+    </div>
+    
+    <!-- Save intials & score-->
+
+    <!-- High score tracker -->
+
+    <!-- High score button -->
+   
+    <script src="./assets/script.js"></script>
+</body>
+</html>
